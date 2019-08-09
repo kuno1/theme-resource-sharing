@@ -1,0 +1,22 @@
+{
+    "name": "kunoichi/theme-resource-sharing",
+    "description": "A utility tool for sharing theme resources.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Kunoichi",
+            "email": "sushi@kunoichiwp.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.6|^7.0",
+        "symfony/filesystem": "^3.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kunoichi\\ThemeResourceSharing": "src"
+        }
+    }
+}
